@@ -1,0 +1,34 @@
+{
+  "name": "overglaze-plugin-hello-world",
+  "version": "0.1.0",
+  "description": "The desktop breathing between full colour and grayscale.",
+  "type": "module",
+  "main": "index.wgsl",
+  "files": [
+    "index.wgsl",
+    "assets",
+    ".cooked"
+  ],
+  "keywords": [
+    "overglaze-plugin"
+  ],
+  "engines": {
+    "overglaze": "^0.2.0"
+  },
+  "overglaze": {
+    "displayName": "Hello World",
+    "categories": [
+      "effects"
+    ],
+    "capabilities": [
+      "desktopCapture"
+    ]
+  },
+  "scripts": {
+    "dev": "overglaze dev .",
+    "pack": "overglaze pack ."
+  },
+  "devDependencies": {
+    "overglaze": "^0.4.0"
+  }
+}

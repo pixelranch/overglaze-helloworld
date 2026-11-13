@@ -1,0 +1,11 @@
+{
+  "setupTasks": [{ "name": "Install", "command": "npm install" }],
+  "tasks": {
+    "dev": {
+      "name": "overglaze dev",
+      "command": "npm run dev -- --host 0.0.0.0",
+      "runAtStart": true,
+      "preview": { "port": 8780 }
+    }
+  }
+}

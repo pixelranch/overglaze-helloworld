@@ -1,0 +1,10 @@
+{
+  "name": "Hello World",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+  "postAttachCommand": "npm run dev",
+  "forwardPorts": [8780],
+  "portsAttributes": {
+    "8780": { "label": "overglaze dev", "onAutoForward": "openBrowser" }
+  }
+}
