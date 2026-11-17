@@ -13,7 +13,7 @@
     "overglaze-plugin"
   ],
   "engines": {
-    "overglaze": "^0.2.0"
+    "overglaze": "^0.3.0"
   },
   "overglaze": {
     "displayName": "Hello World",
@@ -29,6 +29,6 @@
     "pack": "overglaze pack ."
   },
   "devDependencies": {
-    "overglaze": "^0.4.0"
+    "overglaze": "^0.6.0"
   }
 }
