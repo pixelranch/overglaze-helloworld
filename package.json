@@ -29,6 +29,6 @@
     "pack": "overglaze pack ."
   },
   "devDependencies": {
-    "overglaze": "^0.6.0"
+    "overglaze": "^0.7.0"
   }
 }
