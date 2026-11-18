@@ -3,8 +3,9 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "postCreateCommand": "npm install",
   "postAttachCommand": "npm run dev",
-  "forwardPorts": [8780],
+  "forwardPorts": [8780, 8781],
   "portsAttributes": {
-    "8780": { "label": "overglaze dev", "onAutoForward": "openBrowser" }
+    "8780": { "label": "overglaze dev", "onAutoForward": "openBrowser" },
+    "8781": { "label": "overglaze dev sandbox", "onAutoForward": "silent" }
   }
 }
