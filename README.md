@@ -1,12 +1,12 @@
 # Hello World
 
-Open it in [GitHub Codespaces](https://codespaces.new/pixelranch/overglaze-helloworld), [StackBlitz](https://stackblitz.com/github/pixelranch/overglaze-helloworld) or [CodeSandbox](https://codesandbox.io/p/github/pixelranch/overglaze-helloworld).
+Open it in [GitHub Codespaces](https://codespaces.new/pixelranch/overglaze-helloworld) or [StackBlitz](https://stackblitz.com/github/pixelranch/overglaze-helloworld).
 
 An [Overglaze](https://overglaze.io) plugin: a GPU effect drawn over the live desktop.
 
 ## Run it
 
-**In a browser sandbox** -- GitHub Codespaces, StackBlitz or CodeSandbox -- it starts by itself
+**In a browser sandbox** -- GitHub Codespaces or StackBlitz -- it starts by itself
 when the folder opens: the preview shows the effect live over a stand-in desktop, and every save
 reloads it. Open the preview in a tab of its own if the pane stays blank, in a browser with
 WebGPU (Chrome or Edge; Firefox with WebGPU turned on).
